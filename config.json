@@ -1,0 +1,168 @@
+{
+  "names": {
+    "sender": "Deeps",
+    "receiver": "Dayuuu"
+  },
+  "theme": {
+    "primaryColor": "#ff7ab2",
+    "secondaryColor": "#ff4d8d",
+    "accentColor": "#ffc0cb",
+    "fontFamily": "Arial, sans-serif"
+  },
+  "content": {
+    "title": "Will you be my Valentine?",
+    "subtitle": "Choose wisely. (The \"No\" button is... shy.)",
+    "yesButtonText": "YES ❤️",
+    "noButtonText": "YESSSSSSSS❤️",
+    "successMessage": "💖 YAYYYYY!!! 💖",
+    "successSubtitle": "That's the best decision you've ever made ❤️😘",
+    "giftsTitle": "💝 Your Valentine Gifts 💝",
+    "giftsSubtitle": "Click here for the Valentine gifts, Patootie",
+    "songsTitle": "Our Love Sounds Like This!🎵",
+    "photosTitle": "Every Moment with You!📸",
+    "letterTitle": "To the Man I Love the most!❤️",
+    "prosConsTitle": "Why You Should Choose me as Your Valentine ❤️",
+    "prosConsSubtitle": "Nothing!!!!"
+  },
+  "media": {
+    "mainBearGif": "/src/assets/cute-bear.gif",
+    "musicBearGif": "/src/assets/music-bear.gif",
+    "comfortBearGif": "/src/assets/comfort-bear.gif",
+    "kissBearGif": "/src/assets/kiss-bears.gif",
+    "photoBearGif": "/src/assets/photo-bear.gif",
+    "loveYouBearGif": "/src/assets/love-you-bear.gif",
+    "childGif": "/src/assets/child.gif",
+    "roseBearGif": "/src/assets/rose-bear.gif",
+    "cookBearGif": "/src/assets/cook-bear.gif",
+    "kissSingleBearGif": "/src/assets/kiss-bear.gif",
+    "leftButton": "/src/assets/left-button.png",
+    "rightButton": "/src/assets/right-button.png",
+    "envelopeSeal": "❤️"
+  },
+  "gifts": {
+    "gift1": "/src/assets/gift/gift1.jpg",
+    "gift2": "/src/assets/gift/gift2.jpg",
+    "gift3": "/src/assets/gift/gift3.jpg"
+  },
+  "couplePhotos": [
+    {
+      "image": "/src/assets/couple_photo/couple_photo_1.jpeg",
+      "caption": "Our first concert together"
+    },
+    {
+      "image": "/src/assets/couple_photo/couple_photo_2.jpeg",
+      "caption": "Team outing where your efforts made me fall for you"
+    },
+    {
+      "image": "/src/assets/couple_photo/couple_photo_3.jpeg",
+      "caption": "Our heart-to-heart talks"
+    },
+    {
+      "image": "/src/assets/couple_photo/couple_photo_4.jpeg",
+      "caption": "When you took me out on dates like this"
+    },
+    {
+      "image": "/src/assets/couple_photo/couple_photo_5.jpeg",
+      "caption": "Times we were getting to know each other"
+    },
+    {
+      "image": "/src/assets/couple_photo/couple_photo_6.jpeg",
+      "caption": "Your comforting presence at office"
+    }
+  ],
+  "prosCons": [
+    {
+      "gif": "/src/assets/cook-bear.gif",
+      "text": "I'll cook your fav food like it's my love language 🍳"
+    },
+    {
+      "gif": "/src/assets/comfort-bear.gif",
+      "text": "Unlimited comfort and care"
+    },
+    {
+      "gif": "/src/assets/cute-bear.gif",
+      "text": "I listen… like actually listen"
+    },
+    {
+      "gif": "/src/assets/kiss-bears.gif",
+      "text": "Unlimited hugs & kisses\n(non-negotiable 😏)"
+    },
+    {
+      "gif": "/src/assets/photo-bear.gif",
+      "text": "Live dance performances just for you 💃"
+    },
+    {
+      "gif": "/src/assets/music-bear.gif",
+      "text": "Always cheering up for you 🎶😉"
+    }
+  ],
+  "songs": [
+    {
+      "id": 1,
+      "title": "Mental Manadhil",
+      "duration": "3:37",
+      "album": "OK Kanmani",
+      "artist": "",
+      "cover": "/src/assets/album-covers/OKKanmani.webp",
+      "audio": "/src/assets/songs/Mental_Manadhil.mp3"
+    },
+    {
+      "id": 2,
+      "title": "ChaliChaliga",
+      "duration": "4:59",
+      "album": "Mr Perfect",
+      "artist": "",
+      "cover": "/src/assets/album-covers/mrperfect.jpg",
+      "audio": "/src/assets/songs/ChaliChaliga.mp3"
+    },
+    {
+      "id": 3,
+      "title": "Un-Vizhigalil",
+      "duration": "04:51",
+      "album": "Darling",
+      "artist": "",
+      "cover": "/src/assets/album-covers/darling.webp",
+      "audio": "/src/assets/songs/Un-Vizhigalil.mp3"
+    },
+    {
+      "id": 4,
+      "title": "Anbil Avan",
+      "duration": "4:10",
+      "album": "Vinnai Thandi Varuvaya",
+      "artist": "",
+      "cover": "/src/assets/album-covers/VTV.webp",
+      "audio": "/src/assets/songs/Anbil_Avan.mp3"
+    },
+    {
+      "id": 5,
+      "title": "Mudhal Mazhai",
+      "duration": "4:08",
+      "album": "Bheema",
+      "artist": "",
+      "cover": "/src/assets/album-covers/bheema.jpg",
+      "audio": "/src/assets/songs/Ragasiya_Kanavugal.mp3"
+    }
+  ],
+  "letter": {
+    "title": "My Dearest Dayu,",
+    "content": [
+      "I fell for you in a way I never expected, and now every day feels brighter just because you're in it.",
+      "Loving you comes so naturally. It's in your smile, your laugh, and the comfort I feel whenever I'm with you.",
+      "You are my favorite part of every moment, and the best thing that ever happened to me."
+    ],
+    "signature": "With Love,\nYour Deeps"
+  },
+  "navigation": {
+    "backToLove": "Back to Love",
+    "backToGifts": "Back to Gifts",
+    "backToPhotos": "Back to Photos",
+    "backToSongs": "Back to Songs",
+    "backToLetter": "Back to Letter"
+  },
+  "tooltips": {
+    "previous": "Previous",
+    "next": "Next",
+    "play": "Play",
+    "pause": "Pause"
+  }
+}
