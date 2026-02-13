@@ -15,12 +15,14 @@ A customizable, interactive Valentine's Day website template built with React an
 ## 🚀 Quick Start
 
 ### 1. Download & Setup
+
 ```bash
 # Download the template files
 # Extract to your desired location
 ```
 
 ### 2. Customize Your Content
+
 Edit `config.json` to personalize your website. Use `config.template.json` as a reference for all available options:
 
 ```json
@@ -37,24 +39,30 @@ Edit `config.json` to personalize your website. Use `config.template.json` as a 
 }
 ```
 
-**Note**: 
+**Note**:
+
 - `config.json` - Your personalized configuration (edit this file)
 - `config.template.json` - Complete template with all options (reference only)
 
 ### 3. Add Your Media
+
 - **Photos**: Place in `src/assets/couple_photo/` and update `config.json`
 - **Songs**: Place audio files in `src/assets/` and update `config.json`
 - **Gifts**: Replace gift images in `src/assets/gift/`
 
 ### 4. Test Locally (Optional)
+
 ```bash
 npm install
 npm run dev
 ```
+
 Visit `http://localhost:5173` to see your changes.
 
 ### 5. Deploy for Free
+
 Choose your preferred platform:
+
 - [Netlify](#netlify) (Recommended)
 - [Vercel](#vercel)
 - [GitHub Pages](#github-pages)
@@ -81,6 +89,7 @@ valentine-website/
 ## ⚙️ Configuration Guide
 
 ### Basic Settings
+
 ```json
 {
   "names": {
@@ -96,11 +105,12 @@ valentine-website/
 ```
 
 ### Adding Photos
+
 ```json
 {
   "couplePhotos": [
     {
-      "image": "/src/assets/couple_photo/photo1.jpg",
+      "image": "/assets/couple_photo/photo1.jpg",
       "caption": "Our first date"
     }
   ]
@@ -108,6 +118,7 @@ valentine-website/
 ```
 
 ### Adding Songs
+
 ```json
 {
   "songs": [
@@ -117,14 +128,15 @@ valentine-website/
       "duration": "3:45",
       "album": "Album Name",
       "artist": "Artist",
-      "cover": "/src/assets/cover.jpg",
-      "audio": "/src/assets/song.mp3"
+      "cover": "/assets/cover.jpg",
+      "audio": "/assets/song.mp3"
     }
   ]
 }
 ```
 
 ### Customizing Content
+
 ```json
 {
   "content": {
@@ -143,17 +155,20 @@ valentine-website/
 ## 🌐 Deployment
 
 ### Netlify (Easiest)
+
 1. Go to [netlify.com](https://netlify.com)
 2. Drag your project folder to the dashboard
 3. Wait for deployment
 4. Share your custom URL!
 
 ### Vercel
+
 1. Go to [vercel.com](https://vercel.com)
 2. Drag your project folder
 3. Deploy and share!
 
 ### GitHub Pages
+
 1. Create a GitHub repository
 2. Push your files
 3. Enable GitHub Pages in settings
@@ -170,12 +185,14 @@ valentine-website/
 ## 🔧 Troubleshooting
 
 ### Common Issues
+
 - **Images not showing**: Check file paths and extensions
 - **Audio not playing**: Verify MP3 format and file paths
 - **Build errors**: Ensure valid JSON syntax in `config.json`
 - **Site not loading**: Check all file paths are correct
 
 ### Getting Help
+
 1. Check the [Valentine_Template_Guide.pdf](Valentine_Template_Guide.pdf)
 2. Verify JSON syntax with an online validator
 3. Test with minimal changes first
